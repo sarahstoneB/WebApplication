@@ -1,0 +1,94 @@
+[{
+  "title": {
+    "value": "Eltern-Beziehungen",
+    "style": "h4"
+  },
+  "toolTip": "Eltern-Beziehungen",
+  "type": "nestedList",
+  "name": "PARENTRELATIONSHIPS",
+  "orientation": "vertical",
+  "alwaysDisplay": true,
+  "view": {
+    "documentCount": 1,
+    "showTitle": true,
+    "orientation": "horizontal",
+    "partitions": 1,
+    "content": [
+      {
+        "type": "description",
+        "name": "RELATEDPARTYTYPE",
+        "toolTip": "Party-Typ",
+        "displayName": "Party-Typ"
+      },
+      {
+        "type": "description",
+        "name": "RELATEDNAME",
+        "toolTip": "Name",
+        "displayName": "Name"
+      },
+      {
+        "type": "attribute",
+        "name": "Seperator"
+      },
+      {
+        "type": "attribute",
+        "name": "TYPE",
+        "toolTip": "Beziehung-Typ",
+        "displayName": "Beziehung-Typ"
+      },
+      {
+        "type": "attribute",
+        "name": "RELATEDMERZID",
+        "toolTip": "Merz-ID",
+        "displayName": "Merz-ID"
+      }
+    ]
+  }
+},
+{
+  "title": {
+    "value": "Kind-Beziehungen",
+    "style": "h4"
+  },
+  "toolTip": "Kind-Beziehungen",
+  "type": "nestedList",
+  "name": "CHILDRELATIONSHIPS",
+  "orientation": "vertical",
+  "alwaysDisplay": true,
+  "view": {
+    "documentCount": 1,
+    "showTitle": true,
+    "orientation": "horizontal",
+    "partitions": 1,
+    "content": [
+      {
+        "type": "description",
+        "name": "PARTYTYPE",
+        "toolTip": "Party Typ",
+        "displayName": "Party Typ"
+      },
+      {
+        "type": "description",
+        "name": "NAME",
+        "toolTip": "Name",
+        "displayName": "Name"
+      },
+      {
+        "name": "seperator",
+        "type": "attribute"
+      },
+      {
+        "type": "attribute",
+        "name": "TYPE",
+        "toolTip": "Beziehung-Typ",
+        "displayName": "Beziehung-Typ"
+      },
+      {
+        "type": "attribute",
+        "name": "MERZID",
+        "toolTip": "Merz-ID",
+        "displayName": "Merz-ID"
+      }
+    ]
+  }
+}]

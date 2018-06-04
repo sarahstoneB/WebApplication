@@ -1,0 +1,300 @@
+{
+    "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+    "name": "us_1522832",
+    "comment": "layout for US UAT Merz - Master - Pending Merge",
+    "isEditor": false,
+    "ontologyName": "Merz - Master - Pending Merge",
+    "ontologyCategory": "MatchToBeMerged",
+    "container": {
+        "class": "com.liaison.mdm.dto.layout.GridContainer",
+        "name": "__grid",
+        "orientation": "vertical",
+        "showTitle": true,
+        "showBorder": true,
+        "contents": [
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SOURCEPARTYID",
+                "title": "Source Party Identifier",
+                "toolTip": "Identifier of the Source Party that was matched in Stage",
+                "comment": "Identifier of the Source Party that was matched in Stage",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::SourcePartyId",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MDMPARTYID",
+                "title": "MDM Party Identifier",
+                "toolTip": "Identifier of the first Master Party that was matched (see MatchData for the complete list)",
+                "comment": "Identifier of the first Master Party that was matched (see MatchData for the complete list)",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::MdmPartyId",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTYTYPE",
+                "title": "PartyType",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::PartyType",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "NAME",
+                "title": "Name",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::Name",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GIVENNAME",
+                "title": "GivenName",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::GivenName",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "FAMILYNAME",
+                "title": "FamilyName",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::FamilyName",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MATCHDATE",
+                "title": "Match Date",
+                "toolTip": "DateTime when the match was made",
+                "comment": "DateTime when the match was made",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::MatchDate",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MESSAGE",
+                "title": "Match Message",
+                "toolTip": "Match message in plain text format indicating the Stage party record that was matched",
+                "comment": "Match message in plain text format indicating the Stage party record that was matched",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::Message",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SOURCESYSTEM",
+                "title": "Source System",
+                "toolTip": "\"Source System name (Veeva | SAP | SFDC | QAD)",
+                "comment": "\"Source System name (Veeva | SAP | SFDC | QAD)",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::sourceSystem",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "STATUS",
+                "title": "Marge Status",
+                "toolTip": "Status of the match (Pending | Handled | Rejected)",
+                "comment": "Status of the match (Pending | Handled | Rejected)",
+                "editable": true,
+                "attributeFullPath": "::MatchToBeMerged::Status",
+                "defaultValue": "Pending",
+                "readOnly": false,
+                "required": false,
+                "editorType": "selection",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "category",
+                "title": "Category",
+                "toolTip": "the ontology category of the document",
+                "comment": "the ontology category of the document",
+                "doNotPrune": true,
+                "attributeFullPath": "::category",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "documentId",
+                "title": "Document Id",
+                "toolTip": "the unique repository document database identifier",
+                "comment": "the unique repository document database identifier",
+                "doNotPrune": true,
+                "attributeFullPath": "::documentId",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "integer",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "documentKey",
+                "title": "Identifier",
+                "toolTip": "the unique repository document key",
+                "comment": "the unique repository document key",
+                "doNotPrune": true,
+                "attributeFullPath": "::documentKey",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "dateCreated",
+                "title": "Created",
+                "toolTip": "the date when the document was created",
+                "comment": "the date when the document was created",
+                "doNotPrune": true,
+                "attributeFullPath": "::dateCreated",
+                "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "dateTime",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "dateModified",
+                "title": "Modified",
+                "toolTip": "the date when the document was last modified",
+                "comment": "the date when the document was last modified",
+                "doNotPrune": true,
+                "attributeFullPath": "::dateModified",
+                "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "dateTime",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "repositoryId",
+                "title": "Repository Id",
+                "toolTip": "the unique database identifier of the repository",
+                "comment": "the unique database identifier of the repository",
+                "doNotPrune": true,
+                "attributeFullPath": "::repositoryId",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "integer",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "userCreated",
+                "title": "Created By",
+                "toolTip": "the name of the user who created the document",
+                "comment": "the name of the user who created the document",
+                "doNotPrune": true,
+                "attributeFullPath": "::userCreated",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "userModified",
+                "title": "Modified By",
+                "toolTip": "the name of the user who last modified the document",
+                "comment": "the name of the user who last modified the document",
+                "doNotPrune": true,
+                "attributeFullPath": "::userModified",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            }
+        ],
+        "count": 18,
+        "columnCount": 4,
+        "type": "grid"
+    },
+    "layoutType": "grid"
+}

@@ -1,0 +1,199 @@
+
+html {
+  overflow-x: hidden;
+}
+
+.edit-form .ba-container .body{
+  background: #FFF;
+}
+
+/* Comparison colors because scoped styling is not applied to v-html */
+.del {
+  text-decoration: line-through;
+}
+
+.ins {
+  background: #F7CE5B;
+  text-decoration: none;
+}
+
+.inserted span{
+  background: #ACEDCA;
+  padding: 2px 4px;
+  border-bottom: 2px solid #31D177;
+}
+
+.match {
+  border-left: 5px solid #31D177;
+}
+
+.different {
+  border-left: 5px solid #D53838;
+
+  span {
+    padding: 2px 4px;
+    background: #EEC7C6;
+    border-bottom: 2px solid #D53838;
+  }
+
+  i {
+    position: relative;
+    top: 5px;
+    right: 2px;
+    cursor: pointer;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+.overwritten {
+  border-left: 5px solid #D53838;
+  color: #D53838;
+  text-decoration: line-through;
+
+  span {
+    color: #000000;
+  }
+
+  i {
+    position: relative;
+    top: 5px;
+    right: 2px;
+    cursor: pointer;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+.search-input {
+  color: #FFFFFF !important;
+  border-bottom-color: #FFFFFF !important;
+}
+
+.ba-select {
+  min-height: auto !important;
+}
+
+.wrapper {
+  min-height: auto !important;
+}
+
+.toast-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 600px;
+  text-align: center;
+  z-index: 999;
+  .toast {
+    position: relative;
+    margin-top: 10px;
+  }
+  .ba-danger {
+    li {
+      text-align: left;
+    }
+  }
+}
+
+.ba-chevron-up, .ba-chevron-down {
+  color: #000000 !important;
+}
+
+.pagination-container {
+  padding-top: 0px !important;
+}
+
+.tool-brand {
+  flex: 0 0 180px !important;
+  margin-right: 5px;
+}
+
+.empty-active-headers {
+  opacity: .38;
+  pointer-events: none;
+}
+
+ul.ba-select-menu.single {
+  padding: 0px;
+}
+
+<<<<<<< HEAD
+.table-container.fixed {
+  width: ~"calc(100vw - 37px)";
+}
+
+=======
+>>>>>>> CICD/CI_CD
+.pagination-container.fixed {
+  position: inherit !important;
+}
+
+.ba-watermark {
+  display: none;
+}
+
+.empty-records {
+  margin-left: 9%;
+  transition: all .25s;
+  text-transform: uppercase;
+  &.maximized {
+    margin-left: 0px;
+  }
+}
+
+.empty-wrapper {
+  color: #D4E3EC;
+<<<<<<< HEAD
+  margin-left: 30%;
+  margin-top: 16%;
+  position: fixed;
+=======
+  width: 100%;
+  margin-top: 16%;
+  position: fixed;
+  text-align: center;
+>>>>>>> CICD/CI_CD
+}
+
+#toolBar {
+  .showIcons {
+    position: fixed;
+    z-index: 1;
+    width: 97vw;
+  }
+  .toolbar.showIcons.sideNavVisible {
+    width: 81vw;
+  }
+}
+
+.showSideNavIcons {
+  position: fixed !important;
+}
+
+.reference-toolBar {
+  .showIcons {
+    position: fixed;
+    z-index: 1;
+    width: 97vw;
+  }
+  .toolbar.showIcons.sideNavVisible {
+    width: 81vw;
+  }
+}
+<<<<<<< HEAD
+=======
+
+.custom-icon {
+  svg {
+    height: 15px;
+  }
+}
+>>>>>>> CICD/CI_CD

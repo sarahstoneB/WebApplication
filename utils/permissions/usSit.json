@@ -1,0 +1,53 @@
+{
+  "relationshipRepoId": 1544733,
+  "defaultView": "DASHBOARD",
+  "DATA_VIEW": {
+      "defRepoId": 1611073,
+      "enabled": true,
+      "actions": {
+          "card": {
+              "edit": true,
+              "delete": false
+          },
+          "save": false
+      }
+  },
+  "REFERENCE_VIEW": {
+      "enabled": true,
+      "actions": {
+          "edit": true,
+          "save": true,
+          "delete": false,
+          "create": false
+      }
+  },
+  "MATCH_AND_MERGE": {
+      "defRepoId": 1544732,
+      "enabled": true,
+      "actions": {
+          "create": true,
+          "reject": true,
+          "merge": true,
+          "link": true
+      }
+  },
+  "ERROR_REMEDIATION": {
+      "defRepoId": 1544694,
+      "enabled": true,
+      "actions": {
+          "save": false,
+          "reject": true,
+          "card": {
+              "edit": true,
+              "delete": false
+          }
+      }
+  },
+  "DASHBOARD": {
+      "enabled": true
+  },
+  "DATA_PROFILER": {
+      "enabled": false,
+      "inline": true
+  }
+}

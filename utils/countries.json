@@ -1,0 +1,313 @@
+{
+    "continents": {
+        "AF": "Africa",
+        "AN": "Antarctica",
+        "AS": "Asia",
+        "EU": "Europe",
+        "NA": "North America",
+        "OC": "Oceania",
+        "SA": "South America"
+    },
+    "countries": {
+        "AU": {
+            "name": "Australia",
+            "native": "Australia",
+            "phone": "61",
+            "continent": "OC",
+            "capital": "Canberra",
+            "currency": "AUD",
+            "languages": {
+                "en": {
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            }
+        },
+        "CA": {
+            "name": "Canada",
+            "native": "Canada",
+            "phone": "1",
+            "continent": "NA",
+            "capital": "Ottawa",
+            "currency": "CAD",
+            "languages": {
+                "en": {
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                "fr": {
+                    "name": "French",
+                    "nativeName": "français, langue française"
+                }
+            }
+        },
+        "CH": {
+            "name": "Switzerland",
+            "native": "Schweiz",
+            "phone": "41",
+            "continent": "EU",
+            "capital": "Bern",
+            "currency": "CHE,CHF,CHW",
+            "languages": {
+                "de": {
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                },
+                "fr": {
+                    "name": "French",
+                    "nativeName": "français, langue française"
+                },
+                "it": {
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                }
+            }
+        },
+        "CL": {
+            "name": "Chile",
+            "native": "Chile",
+            "phone": "56",
+            "continent": "SA",
+            "capital": "Santiago",
+            "currency": "CLF,CLP",
+            "languages": {
+                "es": {
+                    "name": "Spanish",
+                    "nativeName": "español"
+                }
+            }
+        },
+        "CN": {
+            "name": "China",
+            "native": "中国",
+            "phone": "86",
+            "continent": "AS",
+            "capital": "Beijing",
+            "currency": "CNY",
+            "languages": {
+                "zh": {
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén), 汉语, 漢語"
+                }
+            }
+        },
+        "CO": {
+            "name": "Colombia",
+            "native": "Colombia",
+            "phone": "57",
+            "continent": "SA",
+            "capital": "Bogotá",
+            "currency": "COP",
+            "languages": {
+                "es": {
+                    "name": "Spanish",
+                    "nativeName": "español"
+                }
+            }
+        },
+        "CR": {
+            "name": "Costa Rica",
+            "native": "Costa Rica",
+            "phone": "506",
+            "continent": "NA",
+            "capital": "San José",
+            "currency": "CRC",
+            "languages": {
+                "es": {
+                    "name": "Spanish",
+                    "nativeName": "español"
+                }
+            }
+        },
+        "DE": {
+            "name": "Germany",
+            "native": "Deutschland",
+            "phone": "49",
+            "continent": "EU",
+            "capital": "Berlin",
+            "currency": "EUR",
+            "languages": {
+                "de": {
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                }
+            }
+        },
+        "DK": {
+            "name": "Denmark",
+            "native": "Danmark",
+            "phone": "45",
+            "continent": "EU",
+            "capital": "Copenhagen",
+            "currency": "DKK",
+            "languages": {
+                "da": {
+                    "name": "Danish",
+                    "nativeName": "dansk"
+                }
+            }
+        },
+        "FI": {
+            "name": "Finland",
+            "native": "Suomi",
+            "phone": "358",
+            "continent": "EU",
+            "capital": "Helsinki",
+            "currency": "EUR",
+            "languages": {
+                "fi": {
+                    "name": "Finnish",
+                    "nativeName": "suomi, suomen kieli"
+                },
+                "sv": {
+                    "name": "Swedish",
+                    "nativeName": "svenska"
+                }
+            }
+        },
+        "FR": {
+            "name": "France",
+            "native": "France",
+            "phone": "33",
+            "continent": "EU",
+            "capital": "Paris",
+            "currency": "EUR",
+            "languages": {
+                "fr": {
+                    "name": "French",
+                    "nativeName": "français, langue française"
+                }
+            }
+        },
+        "GB": {
+            "name": "United Kingdom",
+            "native": "United Kingdom",
+            "phone": "44",
+            "continent": "EU",
+            "capital": "London",
+            "currency": "GBP",
+            "languages": {
+                "en": {
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            }
+        },
+        "HK": {
+            "name": "Hong Kong",
+            "native": "香港",
+            "phone": "852",
+            "continent": "AS",
+            "capital": "City of Victoria",
+            "currency": "HKD",
+            "languages": {
+                "zh": {
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén), 汉语, 漢語"
+                },
+                "en": {
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            }
+        },
+        "IT": {
+            "name": "Italy",
+            "native": "Italia",
+            "phone": "39",
+            "continent": "EU",
+            "capital": "Rome",
+            "currency": "EUR",
+            "languages": {
+                "it": {
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                }
+            }
+        },
+        "JP": {
+            "name": "Japan",
+            "native": "日本",
+            "phone": "81",
+            "continent": "AS",
+            "capital": "Tokyo",
+            "currency": "JPY",
+            "languages": {
+                "ja": {
+                    "name": "Japanese",
+                    "nativeName": "日本語 (にほんご／にっぽんご)"
+                }
+            }
+        },
+        "MX": {
+            "name": "Mexico",
+            "native": "México",
+            "phone": "52",
+            "continent": "NA",
+            "capital": "Mexico City",
+            "currency": "MXN",
+            "languages": {
+                "es": {
+                    "name": "Spanish",
+                    "nativeName": "español"
+                }
+            }
+        },
+        "RU": {
+            "name": "Russia",
+            "native": "Россия",
+            "phone": "7",
+            "continent": "EU",
+            "capital": "Moscow",
+            "currency": "RUB",
+            "languages": {
+                "ru": {
+                    "name": "Russian",
+                    "nativeName": "русский язык"
+                }
+            }
+        },
+        "SE": {
+            "name": "Sweden",
+            "native": "Sverige",
+            "phone": "46",
+            "continent": "EU",
+            "capital": "Stockholm",
+            "currency": "SEK",
+            "languages": {
+                "sv": {
+                    "name": "Swedish",
+                    "nativeName": "svenska"
+                }
+            }
+        },
+        "US": {
+            "name": "United States",
+            "native": "United States",
+            "phone": "1",
+            "continent": "NA",
+            "capital": "Washington D.C.",
+            "currency": "USD,USN,USS",
+            "languages": {
+                "en": {
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            }
+        },
+        "VI": {
+            "name": "U.S. Virgin Islands",
+            "native": "United States Virgin Islands",
+            "phone": "1340",
+            "continent": "NA",
+            "capital": "Charlotte Amalie",
+            "currency": "USD",
+            "languages": {
+                "en": {
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            }
+        }
+    }
+}

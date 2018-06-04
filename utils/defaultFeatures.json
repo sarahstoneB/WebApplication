@@ -1,0 +1,43 @@
+{
+  "defaultView": "DATA_VIEW",
+  "DATA_VIEW": {
+      "defRepoId": 0,
+      "enabled": true,
+      "actions": {
+          "card": {
+              "edit": false,
+              "delete": false
+          },
+          "save": false
+      }
+  },
+  "MATCH_AND_MERGE": {
+      "defRepoId": 0,
+      "enabled": false,
+      "actions": {
+          "create": false,
+          "reject": false,
+          "merge": false,
+          "link": false
+      }
+  },
+  "ERROR_REMEDIATION": {
+      "defRepoId": 0,
+      "enabled": false,
+      "actions": {
+          "save": false,
+          "reject": false,
+          "card": {
+              "edit": false,
+              "delete": false
+          }
+      }
+  },
+  "DASHBOARD": {
+      "enabled": false
+  },
+  "DATA_PROFILER": {
+      "enabled": false,
+      "inline": false
+  }
+}

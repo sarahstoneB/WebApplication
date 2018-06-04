@@ -1,0 +1,239 @@
+{
+  "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+  "name": "eu_1524936",
+  "comment": "grid layout for Merz - Master - Relationship",
+  "isEditor": false,
+  "ontologyName": "Merz - Master - Relationship",
+  "ontologyCategory": "Relationship",
+  "container": {
+    "class": "com.liaison.mdm.dto.layout.GridContainer",
+    "name": "__grid",
+    "orientation": "vertical",
+    "showTitle": true,
+    "showBorder": true,
+    "contents": [
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "RELATEDMDMPARTYID",
+        "title": "RelatedMdmPartyId",
+        "toolTip": "MdmPartyId of the related party",
+        "comment": "MdmPartyId of the related party",
+        "editable": true,
+        "attributeFullPath": "::Relationship::RelatedMdmPartyId",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "RELATEDSOURCEPARTYID",
+        "title": "RelatedSourcePartyId",
+        "toolTip": "The related party identifier in the Source record.",
+        "comment": "The related party identifier in the Source record.",
+        "editable": true,
+        "attributeFullPath": "::Relationship::RelatedSourcePartyId",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "RELATIONSHIP",
+        "title": "Relationship",
+        "toolTip": "Relationship between MdmPartyId and RltdMdmPartyId",
+        "comment": "Relationship between MdmPartyId and RltdMdmPartyId",
+        "editable": true,
+        "attributeFullPath": "::Relationship::Relationship",
+        "readOnly": false,
+        "required": true,
+        "editorType": "radio",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "MDMPARTYID",
+        "title": "MdmPartyId",
+        "toolTip": "MdmPartyId",
+        "comment": "MdmPartyId",
+        "editable": true,
+        "attributeFullPath": "::Relationship::MdmPartyId",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "SOURCEPARTYID",
+        "title": "SourcePartyId",
+        "toolTip": "The party identifier in the Source System",
+        "comment": "The party identifier in the Source System",
+        "editable": true,
+        "attributeFullPath": "::Relationship::SourcePartyId",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "SOURCESYSTEM",
+        "title": "SourceSystem",
+        "toolTip": "Source system of the party",
+        "comment": "Source system of the party",
+        "editable": true,
+        "attributeFullPath": "::Relationship::SourceSystem",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "category",
+        "title": "Category",
+        "toolTip": "the ontology category of the document",
+        "comment": "the ontology category of the document",
+        "doNotPrune": true,
+        "attributeFullPath": "::category",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "documentId",
+        "title": "Document Id",
+        "toolTip": "the unique repository document database identifier",
+        "comment": "the unique repository document database identifier",
+        "doNotPrune": true,
+        "attributeFullPath": "::documentId",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "integer",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "documentKey",
+        "title": "Identifier",
+        "toolTip": "the unique repository document key",
+        "comment": "the unique repository document key",
+        "doNotPrune": true,
+        "attributeFullPath": "::documentKey",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "dateCreated",
+        "title": "Created",
+        "toolTip": "the date when the document was created",
+        "comment": "the date when the document was created",
+        "doNotPrune": true,
+        "attributeFullPath": "::dateCreated",
+        "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "dateTime",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "dateModified",
+        "title": "Modified",
+        "toolTip": "the date when the document was last modified",
+        "comment": "the date when the document was last modified",
+        "doNotPrune": true,
+        "attributeFullPath": "::dateModified",
+        "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "dateTime",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "repositoryId",
+        "title": "Repository Id",
+        "toolTip": "the unique database identifier of the repository",
+        "comment": "the unique database identifier of the repository",
+        "doNotPrune": true,
+        "attributeFullPath": "::repositoryId",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "integer",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "userCreated",
+        "title": "Created By",
+        "toolTip": "the name of the user who created the document",
+        "comment": "the name of the user who created the document",
+        "doNotPrune": true,
+        "attributeFullPath": "::userCreated",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "userModified",
+        "title": "Modified By",
+        "toolTip": "the name of the user who last modified the document",
+        "comment": "the name of the user who last modified the document",
+        "doNotPrune": true,
+        "attributeFullPath": "::userModified",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      }
+    ],
+    "count": 14,
+    "columnCount": 4,
+    "type": "grid"
+  },
+  "layoutType": "grid"
+}

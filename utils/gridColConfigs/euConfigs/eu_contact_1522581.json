@@ -1,0 +1,71 @@
+{
+  "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+  "name": "eu_1522581",
+  "comment": "grid layout for Merz - Master - Contact",
+  "isEditor": false,
+  "ontologyName": "Merz - Master - Contact",
+  "ontologyCategory": "Contact",
+  "container": {
+    "class": "com.liaison.mdm.dto.layout.GridContainer",
+    "name": "__grid",
+    "orientation": "vertical",
+    "showTitle": true,
+    "showBorder": true,
+    "contents": [{
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "MDMPARTYID",
+        "title": "MDM Party Identifier",
+        "toolTip": "Identifier of the Party record",
+        "comment": "Identifier of the Party record",
+        "editable": true,
+        "attributeFullPath": "::Contact::MdmPartyId",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "TYPE",
+        "title": "Type",
+        "toolTip": "Party Contact Type",
+        "comment": "Party Contact Type",
+        "editable": true,
+        "attributeFullPath": "::Contact::Type",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "CONTACT",
+        "title": "Contact",
+        "toolTip": "Party Contact Value",
+        "comment": "Party Contact Value",
+        "editable": true,
+        "attributeFullPath": "::Contact::Contact",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      }
+    ],
+    "count": 3,
+    "columnCount": 4,
+    "type": "grid"
+  },
+  "layoutType": "grid"
+}

@@ -1,0 +1,1885 @@
+{
+    "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+    "name": "default",
+    "comment": "auto-generated grid layout using OntologyLayoutBuilder for EUC_PARTY_STG",
+    "isEditor": false,
+    "ontologyName": "EUC_PARTY_STG",
+    "ontologyCategory": "EUC_PARTY_STG",
+    "container": {
+        "class": "com.liaison.mdm.dto.layout.GridContainer",
+        "name": "__grid",
+        "orientation": "vertical",
+        "showTitle": true,
+        "showBorder": true,
+        "contents": [
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "ONTOLOGYCATEGORY",
+                "title": "OntologyCategory",
+                "toolTip": "Ontology Category",
+                "comment": "Ontology Category",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::OntologyCategory",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SRC_PARTY_ID",
+                "title": "SRC_PARTY_ID",
+                "toolTip": "Plan Id",
+                "comment": "Plan Id",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::SRC_PARTY_ID",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_NM",
+                "title": "PARTY_NM",
+                "toolTip": "Party Name",
+                "comment": "Party Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_GIVEN_NM",
+                "title": "PRMRY_GIVEN_NM",
+                "toolTip": "Primary Given Name",
+                "comment": "Primary Given Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_GIVEN_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_FMLY_NM",
+                "title": "PRMRY_FMLY_NM",
+                "toolTip": "Primary Family Name",
+                "comment": "Primary Family Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_FMLY_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_MDDL_NM",
+                "title": "PRMRY_MDDL_NM",
+                "toolTip": "Primary Middle Name",
+                "comment": "Primary Middle Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_MDDL_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_NAME_PRFX_VALUE_TXT",
+                "title": "PRMRY_NAME_PRFX_VALUE_TXT",
+                "toolTip": "Primary Name Prefix Code",
+                "comment": "Primary Name Prefix Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_NAME_PRFX_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_NAME_PRFX_CD",
+                "title": "PRMRY_NAME_PRFX_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_NAME_PRFX_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_NAME_SFFX_VALUE_TXT",
+                "title": "PRMRY_NAME_SFFX_VALUE_TXT",
+                "toolTip": "Primary Name Suffix Code",
+                "comment": "Primary Name Suffix Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_NAME_SFFX_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_NAME_SFFX_CD",
+                "title": "PRMRY_NAME_SFFX_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_NAME_SFFX_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "FRMR_FULL_NM",
+                "title": "FRMR_FULL_NM",
+                "toolTip": "Former full Name",
+                "comment": "Former full Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::FRMR_FULL_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PREFD_FULL_NM",
+                "title": "PREFD_FULL_NM",
+                "toolTip": "Prefered full name",
+                "comment": "Prefered full name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PREFD_FULL_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "COT_VALUE_TXT",
+                "title": "COT_VALUE_TXT",
+                "toolTip": "Contact value text",
+                "comment": "Contact value text",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::COT_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "COT_CD",
+                "title": "COT_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::COT_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_TYPE_CD",
+                "title": "PARTY_TYPE_CD",
+                "toolTip": "Party type code",
+                "comment": "Party type code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_TYPE_CD",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CMN_CNSNT_CD",
+                "title": "CMN_CNSNT_CD",
+                "toolTip": "Communication Consent Code",
+                "comment": "Communication Consent Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::CMN_CNSNT_CD",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PRMRY_TITLE_TXT",
+                "title": "PRMRY_TITLE_TXT",
+                "toolTip": "Primary title text",
+                "comment": "Primary title text",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PRMRY_TITLE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GNDR_VALUE_TXT",
+                "title": "GNDR_VALUE_TXT",
+                "toolTip": "Gender value text",
+                "comment": "Gender value text",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::GNDR_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GNDR_CD",
+                "title": "GNDR_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::GNDR_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "radio",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_DT",
+                "title": "BIRTH_DT",
+                "toolTip": "Birth date",
+                "comment": "Birth date",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_DT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_CITY_NM",
+                "title": "BIRTH_CITY_NM",
+                "toolTip": "Birth city name",
+                "comment": "Birth city name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_CITY_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_STATUS_VALUE_TXT",
+                "title": "PARTY_STATUS_VALUE_TXT",
+                "toolTip": "Party Status value text",
+                "comment": "Party Status value text",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_STATUS_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_STATUS_CD",
+                "title": "PARTY_STATUS_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_STATUS_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CNSNT_IND",
+                "title": "CNSNT_IND",
+                "toolTip": "Consent Indicator",
+                "comment": "Consent Indicator",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::CNSNT_IND",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_STATUS_RSN_VALUE_TXT",
+                "title": "PARTY_STATUS_RSN_VALUE_TXT",
+                "toolTip": "Party Status Reason Code",
+                "comment": "Party Status Reason Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_STATUS_RSN_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_STATUS_RSN_CD",
+                "title": "PARTY_STATUS_RSN_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_STATUS_RSN_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "VALID_IND",
+                "title": "VALID_IND",
+                "toolTip": "When set to Y, indicates that the information is Valid based on the Verification rules defined. Y=Valid, N=Invalid",
+                "comment": "When set to Y, indicates that the information is Valid based on the Verification rules defined. Y=Valid, N=Invalid",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::VALID_IND",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_STATE_PRVNC_NM",
+                "title": "BIRTH_STATE_PRVNC_NM",
+                "toolTip": "BIrth State Province Name",
+                "comment": "BIrth State Province Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_STATE_PRVNC_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GOVT_OFFCL_TYPE_VALUE_TXT",
+                "title": "GOVT_OFFCL_TYPE_VALUE_TXT",
+                "toolTip": "Government Official Type Code",
+                "comment": "Government Official Type Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::GOVT_OFFCL_TYPE_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GOVT_OFFCL_TYPE_CD",
+                "title": "GOVT_OFFCL_TYPE_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::GOVT_OFFCL_TYPE_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "VLDTN_TXT",
+                "title": "VLDTN_TXT",
+                "toolTip": "Contains reason for why the record is marked as invalid.",
+                "comment": "Contains reason for why the record is marked as invalid.",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::VLDTN_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "WSTRN_GIVEN_NM",
+                "title": "WSTRN_GIVEN_NM",
+                "toolTip": "Western Given Name",
+                "comment": "Western Given Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::WSTRN_GIVEN_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "WSTRN_FMLY_NM",
+                "title": "WSTRN_FMLY_NM",
+                "toolTip": "Western Family Name",
+                "comment": "Western Family Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::WSTRN_FMLY_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "WSTRN_MDDL_NM",
+                "title": "WSTRN_MDDL_NM",
+                "toolTip": "Western Middle Name",
+                "comment": "Western Middle Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::WSTRN_MDDL_NM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_CNTRY_VALUE_TXT",
+                "title": "BIRTH_CNTRY_VALUE_TXT",
+                "toolTip": "Birth Country Code",
+                "comment": "Birth Country Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_CNTRY_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_CNTRY_CD",
+                "title": "BIRTH_CNTRY_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_CNTRY_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_STATE_PRVNC_VALUE_TXT",
+                "title": "BIRTH_STATE_PRVNC_VALUE_TXT",
+                "toolTip": "Birth State Province Name",
+                "comment": "Birth State Province Name",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_STATE_PRVNC_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "BIRTH_STATE_PRVNC_CD",
+                "title": "BIRTH_STATE_PRVNC_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::BIRTH_STATE_PRVNC_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "DUE_DLGNC_EVAL_DT",
+                "title": "DUE_DLGNC_EVAL_DT",
+                "toolTip": "Due Diligence Evaluation Date",
+                "comment": "Due Diligence Evaluation Date",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::DUE_DLGNC_EVAL_DT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "EMPLYR_CNTRY_VALUE_TXT",
+                "title": "EMPLYR_CNTRY_VALUE_TXT",
+                "toolTip": "Employer Country Code",
+                "comment": "Employer Country Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::EMPLYR_CNTRY_VALUE_TXT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "EMPLYR_CNTRY_CD",
+                "title": "EMPLYR_CNTRY_CD",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::EMPLYR_CNTRY_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MDM_PARTY_ID",
+                "title": "MDM_PARTY_ID",
+                "toolTip": "MDM Party ID",
+                "comment": "MDM Party ID",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::MDM_PARTY_ID",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MDM_INTRNL_ID",
+                "title": "MDM_INTRNL_ID",
+                "toolTip": "Siperian/any other MDM Row Id Object",
+                "comment": "Siperian/any other MDM Row Id Object",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::MDM_INTRNL_ID",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "INFO_SRC_PKEY_CD",
+                "title": "INFO_SRC_PKEY_CD",
+                "toolTip": "Contirbuting System Primary Key",
+                "comment": "Contirbuting System Primary Key",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::INFO_SRC_PKEY_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CONSOLIDATION_IND",
+                "title": "CONSOLIDATION_IND",
+                "toolTip": "Consolidation Indicator",
+                "comment": "Consolidation Indicator",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::CONSOLIDATION_IND",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PBLSH_IND",
+                "title": "PBLSH_IND",
+                "toolTip": "Publish Indicator",
+                "comment": "Publish Indicator",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PBLSH_IND",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "HDD_STATUS_CD",
+                "title": "HDD_STATUS_CD",
+                "toolTip": "Deletion Code",
+                "comment": "Deletion Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::HDD_STATUS_CD",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "HDD_STATUS_DT_TM",
+                "title": "HDD_STATUS_DT_TM",
+                "toolTip": "Deletion Date",
+                "comment": "Deletion Date",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::HDD_STATUS_DT_TM",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CRTN_ID",
+                "title": "CRTN_ID",
+                "toolTip": "Created by ISID",
+                "comment": "Created by ISID",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::CRTN_ID",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CRTN_DT_TM",
+                "title": "CRTN_DT_TM",
+                "toolTip": "Creation date time",
+                "comment": "Creation date time",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::CRTN_DT_TM",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "LAST_UPDT_ID",
+                "title": "LAST_UPDT_ID",
+                "toolTip": "Last updated by ISID",
+                "comment": "Last updated by ISID",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::LAST_UPDT_ID",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "LAST_UPDT_DT_TM",
+                "title": "LAST_UPDT_DT_TM",
+                "toolTip": "Last updated date time",
+                "comment": "Last updated date time",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::LAST_UPDT_DT_TM",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "AUDITVERSIONS",
+                "title": "AuditVersions",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::AuditVersions",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "AUDIT_EUC_PARTY_STG",
+                    "attributeName": "AuditVersions",
+                    "attributeFullPath": "::EUC_PARTY_STG::AuditVersions",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MDM_DMN_GEO_CD",
+                "title": "MDM_DMN_GEO_CD",
+                "toolTip": "Country Code",
+                "comment": "Country Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::MDM_DMN_GEO_CD",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "INFO_SRC_CD",
+                "title": "INFO_SRC_CD",
+                "toolTip": "Contributing System Source Code",
+                "comment": "Contributing System Source Code",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::INFO_SRC_CD",
+                "readOnly": false,
+                "required": true,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "MERGE_STATUS",
+                "title": "MERGE_STATUS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::MERGE_STATUS",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "INBOUND_FILE_ID",
+                "title": "Inbound_File_Id",
+                "toolTip": "0",
+                "comment": "0",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Inbound_File_Id",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "TERRITORY_SALES_REP",
+                "title": "Territory_Sales_rep",
+                "toolTip": "_CRM2",
+                "comment": "_CRM2",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Territory_Sales_rep",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "HEADPHYSICIAN_OWNER",
+                "title": "HeadPhysician_Owner",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::HeadPhysician_Owner",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PM_FULL_NAME__C",
+                "title": "PM_Full_Name__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PM_Full_Name__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "QAD_BR__C",
+                "title": "QAD_BR__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::QAD_BR__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "QAD_CUST__C",
+                "title": "QAD_Cust__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::QAD_Cust__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "REFERRAL_NAME__C",
+                "title": "Referral_Name__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Referral_Name__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "REFERRAL_TYPE__C",
+                "title": "Referral_Type__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Referral_Type__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "TERRITORY__C",
+                "title": "Territory__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Territory__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PM_TERRITORY_CODE__C",
+                "title": "PM_Territory_Code__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PM_Territory_Code__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "QAD_CUSTOMER__C",
+                "title": "QAD_Customer__c",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::QAD_Customer__c",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "ACCOUNT_TYPE",
+                "title": "Account_Type",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Account_Type",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "DELF",
+                "title": "DelF",
+                "toolTip": "_CRM3",
+                "comment": "_CRM3",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::DelF",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "DEBL",
+                "title": "DeBl",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::DeBl",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "ORDBL",
+                "title": "OrdBl",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::OrdBl",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "ACCTGROUP",
+                "title": "AcctGroup",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::AcctGroup",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SORG",
+                "title": "SOrg",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::SOrg",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "NAME2",
+                "title": "Name2",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Name2",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "COUNTRY",
+                "title": "Country",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Country",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SEARCHTERM",
+                "title": "SearchTerm",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::SearchTerm",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "DATE",
+                "title": "Date",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Date",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "ADDRESS",
+                "title": "Address",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Address",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PAYT",
+                "title": "PayT",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PayT",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "TELEBOX",
+                "title": "Telebox",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Telebox",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "LANGUAGE",
+                "title": "Language",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Language",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SEARCHTERM1",
+                "title": "SearchTerm1",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::SearchTerm1",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SEARCHTERM2",
+                "title": "SearchTerm2",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::SearchTerm2",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CGRP",
+                "title": "CGrp",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::CGrp",
+                "readOnly": false,
+                "required": false,
+                "editorType": "taxonomyPicker",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GRP1",
+                "title": "Grp1",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Grp1",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GRP2",
+                "title": "Grp2",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Grp2",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GRP3",
+                "title": "Grp3",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Grp3",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "GRP4",
+                "title": "Grp4",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Grp4",
+                "readOnly": false,
+                "required": false,
+                "editorType": "taxonomyPicker",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CREATED_BY",
+                "title": "Created_by",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Created_by",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "CON_SPEC_KEY",
+                "title": "Con_Spec_Key",
+                "toolTip": "_MISC1",
+                "comment": "_MISC1",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Con_Spec_Key",
+                "readOnly": false,
+                "required": false,
+                "editorType": "taxonomyPicker",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "UNIT_NAME",
+                "title": "Unit_Name",
+                "toolTip": "_MISC2",
+                "comment": "_MISC2",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::Unit_Name",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "SSN",
+                "title": "SSN",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::SSN",
+                "readOnly": false,
+                "required": false,
+                "editorType": "textbox",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+                    "editorType": "textbox"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_ADDRESS",
+                "title": "PARTY_ADDRESS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_ADDRESS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_ADDR_STG",
+                    "attributeName": "PARTY_ADDRESS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_ADDRESS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_ADDRESS_BRICK",
+                "title": "PARTY_ADDRESS_BRICK",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_ADDRESS_BRICK",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_ADDR_BRICK_ASSOC_STG",
+                    "attributeName": "PARTY_ADDRESS_BRICK",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_ADDRESS_BRICK",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_ALTERNATE_ID",
+                "title": "PARTY_ALTERNATE_ID",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_ALTERNATE_ID",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_ALTRNT_ID_STG",
+                    "attributeName": "PARTY_ALTERNATE_ID",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_ALTERNATE_ID",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_COMMUNICATIONS",
+                "title": "PARTY_COMMUNICATIONS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_COMMUNICATIONS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_CMN_CHNNL_USE_STG",
+                    "attributeName": "PARTY_COMMUNICATIONS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_COMMUNICATIONS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_CREDENTIALS",
+                "title": "PARTY_CREDENTIALS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_CREDENTIALS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_CRDNTL_STG",
+                    "attributeName": "PARTY_CREDENTIALS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_CREDENTIALS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_EXTENSIONS",
+                "title": "PARTY_EXTENSIONS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_EXTENSIONS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_EXTNSN_STG",
+                    "attributeName": "PARTY_EXTENSIONS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_EXTENSIONS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_LICENSES",
+                "title": "PARTY_LICENSES",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_LICENSES",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_LCNS_STG",
+                    "attributeName": "PARTY_LICENSES",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_LICENSES",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_LICENSORS",
+                "title": "PARTY_LICENSORS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_LICENSORS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_LCNSR_STG",
+                    "attributeName": "PARTY_LICENSORS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_LICENSORS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_RELATIONSHIPS",
+                "title": "PARTY_RELATIONSHIPS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_RELATIONSHIPS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_RLTNSHP_STG",
+                    "attributeName": "PARTY_RELATIONSHIPS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_RELATIONSHIPS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_RELATIONSHIP_ROLES",
+                "title": "PARTY_RELATIONSHIP_ROLES",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_RELATIONSHIP_ROLES",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_RLTNSHP_ROLE_STG",
+                    "attributeName": "PARTY_RELATIONSHIP_ROLES",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_RELATIONSHIP_ROLES",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_INTERNAL_RELATIONSHIPS",
+                "title": "PARTY_INTERNAL_RELATIONSHIPS",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_INTERNAL_RELATIONSHIPS",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_INTRNL_PARTY_RLTNSHP_STG",
+                    "attributeName": "PARTY_INTERNAL_RELATIONSHIPS",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_INTERNAL_RELATIONSHIPS",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_SPECIALTY",
+                "title": "PARTY_SPECIALTY",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_SPECIALTY",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_SPCLTY_STG",
+                    "attributeName": "PARTY_SPECIALTY",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_SPECIALTY",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_MEDICAL_INT",
+                "title": "PARTY_MEDICAL_INT",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_MEDICAL_INT",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_MDCL_INT_STG",
+                    "attributeName": "PARTY_MEDICAL_INT",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_MEDICAL_INT",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+                "name": "PARTY_CONTRACT",
+                "title": "PARTY_CONTRACT",
+                "editable": true,
+                "attributeFullPath": "::EUC_PARTY_STG::PARTY_CONTRACT",
+                "readOnly": false,
+                "required": false,
+                "valueType": "nestedRepository",
+                "editorType": "nestedDocument",
+                "editorConfiguration": {
+                    "class": "com.liaison.mdm.dto.layout.editor.NestedDocumentEditorConfiguration",
+                    "nestedRepository": "EUC_PARTY_CONTRACT_STG",
+                    "attributeName": "PARTY_CONTRACT",
+                    "attributeFullPath": "::EUC_PARTY_STG::PARTY_CONTRACT",
+                    "editorType": "nestedDocument"
+                },
+                "componentType": "attribute"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "category",
+                "title": "Category",
+                "toolTip": "the ontology category of the document",
+                "comment": "the ontology category of the document",
+                "doNotPrune": true,
+                "attributeFullPath": "::category",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "documentId",
+                "title": "Document Id",
+                "toolTip": "the unique repository document database identifier",
+                "comment": "the unique repository document database identifier",
+                "doNotPrune": true,
+                "attributeFullPath": "::documentId",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "integer",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "documentKey",
+                "title": "Identifier",
+                "toolTip": "the unique repository document key",
+                "comment": "the unique repository document key",
+                "doNotPrune": true,
+                "attributeFullPath": "::documentKey",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "dateCreated",
+                "title": "Created",
+                "toolTip": "the date when the document was created",
+                "comment": "the date when the document was created",
+                "doNotPrune": true,
+                "attributeFullPath": "::dateCreated",
+                "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "dateTime",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "dateModified",
+                "title": "Modified",
+                "toolTip": "the date when the document was last modified",
+                "comment": "the date when the document was last modified",
+                "doNotPrune": true,
+                "attributeFullPath": "::dateModified",
+                "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "dateTime",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "repositoryId",
+                "title": "Repository Id",
+                "toolTip": "the unique database identifier of the repository",
+                "comment": "the unique database identifier of the repository",
+                "doNotPrune": true,
+                "attributeFullPath": "::repositoryId",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "integer",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "userCreated",
+                "title": "Created By",
+                "toolTip": "the name of the user who created the document",
+                "comment": "the name of the user who created the document",
+                "doNotPrune": true,
+                "attributeFullPath": "::userCreated",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            },
+            {
+                "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+                "name": "userModified",
+                "title": "Modified By",
+                "toolTip": "the name of the user who last modified the document",
+                "comment": "the name of the user who last modified the document",
+                "doNotPrune": true,
+                "attributeFullPath": "::userModified",
+                "readOnly": true,
+                "required": false,
+                "clearOnClone": true,
+                "valueType": "text",
+                "componentType": "metadata"
+            }
+        ],
+        "count": 114,
+        "columnCount": 4,
+        "type": "grid"
+    },
+    "layoutType": "grid"
+}

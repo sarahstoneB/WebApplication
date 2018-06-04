@@ -1,0 +1,191 @@
+{
+  "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+  "name": "eu_1522580",
+  "comment": "grid layout  for Merz - Master - Address",
+  "isEditor": false,
+  "ontologyName": "Merz - Master - Address",
+  "ontologyCategory": "Address",
+  "container": {
+    "class": "com.liaison.mdm.dto.layout.GridContainer",
+    "name": "__grid",
+    "orientation": "vertical",
+    "showTitle": true,
+    "showBorder": true,
+    "contents": [{
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "MDMPARTYID",
+        "title": "MDM Party Identifier",
+        "toolTip": "Identifier of the Master Party record",
+        "comment": "Identifier of the Master Party record",
+        "editable": true,
+        "attributeFullPath": "::Address::MdmPartyId",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "POSTALCODE",
+        "title": "Postal Code",
+        "toolTip": "The postal code for the address.",
+        "comment": "The postal code for the address.",
+        "editable": true,
+        "attributeFullPath": "::Address::PostalCode",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "CITY",
+        "title": "City",
+        "toolTip": "The city of the address.",
+        "comment": "The city of the address.",
+        "editable": true,
+        "attributeFullPath": "::Address::City",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STREETNAME",
+        "title": "StreetName",
+        "toolTip": "The Street Name of the address",
+        "comment": "The Street Name of the address",
+        "editable": true,
+        "attributeFullPath": "::Address::StreetName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STREETNUMBER",
+        "title": "StreetNumber",
+        "toolTip": "The Street Number of the address",
+        "comment": "The Street Number of the address",
+        "editable": true,
+        "attributeFullPath": "::Address::StreetNumber",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ADDRESSLINE1",
+        "title": "Address Line 1",
+        "toolTip": "The first line of the address.",
+        "comment": "The first line of the address.",
+        "editable": true,
+        "attributeFullPath": "::Address::AddressLine1",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ADDRESSLINE2",
+        "title": "Address Line 2",
+        "toolTip": "The second line of the address.",
+        "comment": "The second line of the address.",
+        "editable": true,
+        "attributeFullPath": "::Address::AddressLine2",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "COUNTRY",
+        "title": "Country",
+        "toolTip": "The country of the address.",
+        "comment": "The country of the address.",
+        "editable": true,
+        "attributeFullPath": "::Address::Country",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STATUS",
+        "title": "Status",
+        "toolTip": "The status for the address, values like Valid | Invalid.",
+        "comment": "The status for the address, values like Valid | Invalid.",
+        "editable": true,
+        "attributeFullPath": "::Address::Status",
+        "defaultValue": "Active",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "TYPE",
+        "title": "Type",
+        "toolTip": "The type for the address",
+        "comment": "The type for the address",
+        "editable": true,
+        "attributeFullPath": "::Address::Type",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      }
+    ],
+    "count": 10,
+    "columnCount": 4,
+    "type": "grid"
+  },
+  "layoutType": "grid"
+}

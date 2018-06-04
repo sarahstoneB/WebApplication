@@ -1,0 +1,630 @@
+{
+  "form": {
+    "formName": "Party",
+    "formUsageType": "view",
+    "layoutType": "paged",
+    "orientation": "vertical",
+    "pagedContent": [
+      {
+        "name": "Main Party page",
+        "type": "partitioned",
+        "orientation": "horizontal",
+        "partitions": [
+          {
+            "name": "left partitions",
+            "orientation": "vertical",
+            "cards": [
+              {
+                "toolTip": "Party Information",
+                "type": "page",
+                "name": "Party card",
+                "orientation": "vertical",
+                "view": {
+                  "orientation": "vertical",
+                  "partitions": 1,
+                  "supressTitles": false,
+                  "showTitle": true,
+                  "content": [
+                    {
+                      "type": "section",
+                      "orientation": "vertical",
+                      "showTitle": true,
+                      "partitions": 1,
+                      "content": [
+                        {
+                          "type": "atomic",
+                          "orientation": "vertical",
+                          "alignment": "center",
+                          "partitions": 1,
+                          "showTitle": true,
+                          "atomicContent": [
+                            {
+                              "type": "attribute",
+                              "displayName": "Name",
+                              "toolTip": "Party Name",
+                              "name": "NAME",
+                              "values": [
+                                {
+                                  "toolTip": "Name Prefix Professional",
+                                  "type": "attribute",
+                                  "name": "NAMEPREFIXPROFESSIONAL"
+                                },
+                                {
+                                  "toolTip": "Given Name",
+                                  "type": "attribute",
+                                  "name": "GIVENNAME"
+                                },
+                                {
+                                  "toolTip": "Middle Name",
+                                  "type": "attribute",
+                                  "name": "MIDDLENAME"
+                                },
+                                {
+                                  "toolTip": "Family Name",
+                                  "type": "attribute",
+                                  "name": "FAMILYNAME"
+                                },
+                                {
+                                  "toolTip": "Name Suffix Generational",
+                                  "type": "attribute",
+                                  "name": "NAMESUFFIXGENERATIONAL"
+                                },
+                                {
+                                  "toolTip": "Name Suffix Professional",
+                                  "type": "attribute",
+                                  "name": "NAMESUFFIXPROFESSIONAL"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "section",
+                      "orientation": "horizontal",
+                      "showTitle": true,
+                      "partitions": 1,
+                      "content": [
+                        {
+                          "type": "atomic",
+                          "orientation": "vertical",
+                          "alignment": "left",
+                          "showTitle": true,
+                          "partitions": 1,
+                          "atomicContent": [
+                            {
+                              "type": "attribute",
+                              "name": "ACCOUNTNAME2",
+                              "toolTip": "Account Name2",
+                              "displayName": "Account Name2"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "PARTYTYPE",
+                              "toolTip": "Party Type",
+                              "displayName": "Party Type"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "PARTYSUBTYPE",
+                              "toolTip": "Party Subtype",
+                              "displayName": "Party Subtype"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "ACCOUNTTYPE",
+                              "toolTip": "Account Type",
+                              "displayName": "Account Type"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "ACCOUNTSUBTYPE",
+                              "toolTip": "Account Subtype",
+                              "displayName": "Account Subtype"
+                            },
+                            {
+                              "type": "label",
+                              "value": "Status"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "STATUS",
+                              "toolTip": "Status",
+                              "displayName": "Status"
+                            },
+                            {
+                              "type": "label",
+                              "value": "Account Phase Status"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "ACCOUNTPHASESTATUS",
+                              "toolTip": "Account Phase Status",
+                              "displayName": "Account Status"
+                            },
+                            {
+                              "type": "attribute",
+                              "name": "MERZID",
+                              "toolTip": "MerzId",
+                              "displayName": "MerzId"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "value": "Contacts",
+                  "style": "h4"
+                },
+                "type": "nestedGroupBy",
+                "name": "CONTACTS",
+                "orientation": "vertical",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 8,
+                  "supressTitles": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "groupBy": {
+                    "type": "attribute",
+                    "name": "TYPE",
+                    "includeNestedAttributeNames": true,
+                    "style": "h5"
+                  },
+                  "content": [
+                    {
+                      "type": "switch",
+                      "name": "TYPE",
+                      "cases": [
+                        {
+                          "equals": {
+                            "value": "Phone",
+                            "displayName": "Phone",
+                            "toolTip": "Phone Number",
+                            "content": [
+                              {
+                                "type": "template",
+                                "template": "${v1}${v2 ? \" x\" + v2 : \"\"}${v3 ? \"  \" + v3 : \"\"}",
+                                "toolTip": "Phone Number",
+                                "values": [
+                                  {
+                                    "toolTip": "Phone Number",
+                                    "displayName": "PhoneNumber",
+                                    "type": "attribute",
+                                    "name": "PHONENUMBER"
+                                  },
+                                  {
+                                    "toolTip": "Phone Extension",
+                                    "displayName": "PhoneExtension",
+                                    "type": "attribute",
+                                    "name": "PHONEEXTENSION"
+                                  },
+                                  {
+                                    "toolTip": "Phone Type",
+                                    "displayName": "PhoneType",
+                                    "type": "attribute",
+                                    "name": "PHONETYPE"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "equals": {
+                            "displayName": "Fax",
+                            "value": "Fax",
+                            "toolTip": "Fax Number",
+                            "content": [
+                              {
+                                "type": "template",
+                                "template": "${v1}${v2 ? \"x\" + v2 : \"\"}${v3 ? \"  \" + v3 : \"\"}",
+                                "toolTip": "Fax Number",
+                                "values": [
+                                  {
+                                    "toolTip": "Phone Number",
+                                    "type": "attribute",
+                                    "name": "CONTACT"
+                                  },
+                                  {
+                                    "toolTip": "Phone Extension",
+                                    "type": "attribute",
+                                    "name": "PHONEEXTENSION"
+                                  },
+                                  {
+                                    "toolTip": "Phone Type",
+                                    "type": "attribute",
+                                    "name": "PHONETYPE"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "equals": {
+                            "value": "Email",
+                            "displayName": "Email",
+                            "toolTip": "Email",
+                            "content": [
+                              {
+                                "type": "attribute",
+                                "name": "EMAIL",
+                                "displayName": "Email",
+                                "toolTip": "Email"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "equals": {
+                            "value": "Website",
+                            "toolTip": "Website",
+                            "displayName": "Website",
+                            "content": [
+                              {
+                                "type": "attribute",
+                                "name": "WEBSITE",
+                                "toolTip": "Website",
+                                "displayName": "Website"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "default": {
+                            "content": [
+                              {
+                                "type": "attribute",
+                                "name": "CONTACT"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "value": "Identifiers",
+                  "style": "h4"
+                },
+                "type": "nestedList",
+                "toolTip": "Alternate Identifiers",
+                "name": "ALTERNATEIDENTIFIERS",
+                "orientation": "horizontal",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 8,
+                  "showTitle": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "content": [
+                    {
+                      "type": "attribute",
+                      "name": "TYPE",
+                      "displayName": "Type",
+                      "toolTip": "Alternate Identifier Type"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "ALTERNATEID",
+                      "displayName": "ID",
+                      "toolTip": "Alternate Identifier"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "STATUS",
+                      "displayName": "Status",
+                      "toolTip": "Alternate Identifier Status"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "EXPIRATIONDATE",
+                      "displayName": "ExpirationDate",
+                      "toolTip": "Expiration Date"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "middle partitions",
+            "orientation": "vertical",
+            "cards": [
+              {
+                "title": {
+                  "value": "Addresses",
+                  "style": "h4"
+                },
+                "toolTip": "Displays Address documents",
+                "type": "nestedList",
+                "name": "ADDRESSES",
+                "orientation": "vertical",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 5,
+                  "showTitle": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "content": [
+                    {
+                      "type": "attribute",
+                      "name": "ADDRESSID",
+                      "toolTip": "Address ID",
+                      "displayName": "AddressId"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "TYPE",
+                      "toolTip": "Address Type",
+                      "displayName": "AddressType"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "SUBTYPE",
+                      "toolTip": "Address Subtype",
+                      "displayName": "Address Subtype"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "PRIORITY",
+                      "toolTip": "Address Priority",
+                      "displayName": "Priority"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "STATUS",
+                      "toolTip": "Address Status",
+                      "displayName": "Status"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "Seperator"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "ADDRESSLINE1",
+                      "toolTip": "Address 1",
+                      "displayName": "Address 1"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "ADDRESSLINE2",
+                      "toolTip": "Address 2",
+                      "displayName": "Address 2"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "CITY",
+                      "toolTip": "City",
+                      "displayName": "City"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "STATE",
+                      "toolTip": "State/Province",
+                      "displayName": "State/Province"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "POSTALCODE",
+                      "toolTip": "Postal Code",
+                      "displayName": "Postal Code"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "POSTOFFICEBOX",
+                      "toolTip": "PO Box",
+                      "displayName": "PO Box"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "POSTOFFICEBOXPOSTALCODE",
+                      "toolTip": "PO Box Postal Code",
+                      "displayName": "PO Box Postal Code"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "COUNTRY",
+                      "toolTip": "Country",
+                      "displayName": "Country"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "right partitions",
+            "orientation": "vertical",
+            "cards": [
+              {
+                "title": {
+                  "value": "Specialties",
+                  "style": "h4"
+                },
+                "toolTip": "Displays Specialty documents",
+                "type": "nestedList",
+                "name": "SPECIALTIES",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 3,
+                  "showTitle": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "content": [
+                    {
+                      "type": "attribute",
+                      "name": "SPECIALTY",
+                      "displayName": "Specialty",
+                      "toolTip": "Specialty"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "SPECIALTYCODE",
+                      "displayName": "Specialty Code",
+                      "toolTip": "Specialty Code"
+                    }
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "value": "Licenses",
+                  "style": "h4"
+                },
+                "toolTip": "Displays Licenses documents",
+                "type": "nestedList",
+                "name": "LICENSES",
+                "orientation": "vertical",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 2,
+                  "showTitle": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "content": [
+                    {
+                      "type": "attribute",
+                      "name": "LICENSENUMBER",
+                      "toolTip": "License Number",
+                      "displayName": "License Number"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "ISSUER",
+                      "toolTip": "Issuing Authority",
+                      "displayName": "Issuing Authority"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "STATUS",
+                      "toolTip": "License Status",
+                      "displayName": "Status"
+                    },
+                    {
+                      "type": "template",
+                      "toolTip": "Expiration Date",
+                      "template": "${v1 ? \"Expires on \" + v1 : \"\"}",
+                      "values": [
+                        {
+                          "type": "attribute",
+                          "name": "EXPIRATIONDATE",
+                          "valueType": "date",
+                          "format": "MM/dd/yyyy"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "value": "Parent Relationships",
+                  "style": "h4"
+                },
+                "toolTip": "Displays Parent Relationships",
+                "type": "nestedList",
+                "name": "PARENTRELATIONSHIPS",
+                "orientation": "vertical",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 1,
+                  "showTitle": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "content": [
+                    {
+                      "type": "description",
+                      "name": "RELATEDPARTYTYPE",
+                      "toolTip": "Party Type",
+                      "displayName": "Party Type"
+                    },
+                    {
+                      "type": "description",
+                      "name": "RELATEDNAME",
+                      "toolTip": "Name",
+                      "displayName": "Name"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "Seperator"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "TYPE",
+                      "toolTip": "Relation Type",
+                      "displayName": "Relation Type"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "RELATEDMERZID",
+                      "toolTip": "Merz ID",
+                      "displayName": "Merz ID"
+                    }
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "value": "Child Relationships",
+                  "style": "h4"
+                },
+                "toolTip": "Displays Child Relationships",
+                "type": "nestedList",
+                "name": "CHILDRELATIONSHIPS",
+                "orientation": "vertical",
+                "alwaysDisplay": true,
+                "view": {
+                  "documentCount": 1,
+                  "showTitle": true,
+                  "orientation": "horizontal",
+                  "partitions": 1,
+                  "content": [
+                    {
+                      "type": "description",
+                      "name": "PARTYTYPE",
+                      "toolTip": "Party Type",
+                      "displayName": "Party Type"
+                    },
+                    {
+                      "type": "description",
+                      "name": "NAME",
+                      "toolTip": "Name",
+                      "displayName": "Name"
+                    },
+                    {
+                      "name": "seperator",
+                      "type": "attribute"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "TYPE",
+                      "toolTip": "Relation Type",
+                      "displayName": "Relation Type"
+                    },
+                    {
+                      "type": "attribute",
+                      "name": "MERZID",
+                      "toolTip": "Merz ID",
+                      "displayName": "Merz ID"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

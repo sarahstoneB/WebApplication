@@ -1,0 +1,96 @@
+[
+  {
+    "title": {
+      "value": "Relaciones con los padres",
+      "style": "h4"
+    },
+    "toolTip": "Relaciones con los padress",
+    "type": "nestedList",
+    "name": "PARENTRELATIONSHIPS",
+    "orientation": "vertical",
+    "alwaysDisplay": true,
+    "view": {
+      "documentCount": 1,
+      "showTitle": true,
+      "orientation": "horizontal",
+      "partitions": 1,
+      "content": [
+        {
+          "type": "description",
+          "name": "RELATEDPARTYTYPE",
+          "toolTip": "Tipo de fiesta",
+          "displayName": "Tipo de fiesta"
+        },
+        {
+          "type": "description",
+          "name": "RELATEDNAME",
+          "toolTip": "Nombre",
+          "displayName": "Nombre"
+        },
+        {
+          "type": "attribute",
+          "name": "Seperator"
+        },
+        {
+          "type": "attribute",
+          "name": "TYPE",
+          "toolTip": "Tipo de relación",
+          "displayName": "Tipo de relación"
+        },
+        {
+          "type": "attribute",
+          "name": "RELATEDMERZID",
+          "toolTip": "Merz ID",
+          "displayName": "Merz ID"
+        }
+      ]
+    }
+  },
+  {
+    "title": {
+      "value": "Relaciones con los niños",
+      "style": "h4"
+    },
+    "toolTip": "Relaciones con los niños",
+    "type": "nestedList",
+    "name": "CHILDRELATIONSHIPS",
+    "orientation": "vertical",
+    "alwaysDisplay": true,
+    "view": {
+      "documentCount": 1,
+      "showTitle": true,
+      "orientation": "horizontal",
+      "partitions": 1,
+      "content": [
+        {
+          "type": "description",
+          "name": "PARTYTYPE",
+          "toolTip": "Tipo de fiesta",
+          "displayName": "Tipo de fiesta"
+        },
+        {
+          "type": "description",
+          "name": "NAME",
+          "toolTip": "Nombre",
+          "displayName": "Nombre"
+        },
+        {
+          "name": "seperator",
+          "type": "attribute"
+        },
+        {
+          "type": "attribute",
+          "name": "TYPE",
+          "toolTip": "Tipo de relación",
+          "displayName": "Tipo de relación"
+        },
+        {
+          "type": "attribute",
+          "name": "MERZID",
+          "toolTip": "Merz ID",
+          "displayName": "Merz ID"
+        }
+      ]
+    }
+  }
+]

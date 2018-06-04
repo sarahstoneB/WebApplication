@@ -1,0 +1,96 @@
+[
+  {
+    "title": {
+      "value": "Parent Relationships",
+      "style": "h4"
+    },
+    "toolTip": "Displays Parent Relationships",
+    "type": "nestedList",
+    "name": "PARENTRELATIONSHIPS",
+    "orientation": "vertical",
+    "alwaysDisplay": true,
+    "view": {
+      "documentCount": 1,
+      "showTitle": true,
+      "orientation": "horizontal",
+      "partitions": 1,
+      "content": [
+        {
+          "type": "description",
+          "name": "RELATEDPARTYTYPE",
+          "toolTip": "Party Type",
+          "displayName": "Party Type"
+        },
+        {
+          "type": "description",
+          "name": "RELATEDNAME",
+          "toolTip": "Name",
+          "displayName": "Name"
+        },
+        {
+          "type": "attribute",
+          "name": "Seperator"
+        },
+        {
+          "type": "attribute",
+          "name": "TYPE",
+          "toolTip": "Relation Type",
+          "displayName": "Relation Type"
+        },
+        {
+          "type": "attribute",
+          "name": "RELATEDMERZID",
+          "toolTip": "Merz ID",
+          "displayName": "Merz ID"
+        }
+      ]
+    }
+  },
+  {
+    "title": {
+      "value": "Child Relationships",
+      "style": "h4"
+    },
+    "toolTip": "Displays Child Relationships",
+    "type": "nestedList",
+    "name": "CHILDRELATIONSHIPS",
+    "orientation": "vertical",
+    "alwaysDisplay": true,
+    "view": {
+      "documentCount": 1,
+      "showTitle": true,
+      "orientation": "horizontal",
+      "partitions": 1,
+      "content": [
+        {
+          "type": "description",
+          "name": "PARTYTYPE",
+          "toolTip": "Party Type",
+          "displayName": "Party Type"
+        },
+        {
+          "type": "description",
+          "name": "NAME",
+          "toolTip": "Name",
+          "displayName": "Name"
+        },
+        {
+          "name": "seperator",
+          "type": "attribute"
+        },
+        {
+          "type": "attribute",
+          "name": "TYPE",
+          "toolTip": "Relation Type",
+          "displayName": "Relation Type"
+        },
+        {
+          "type": "attribute",
+          "name": "MERZID",
+          "toolTip": "Merz ID",
+          "displayName": "Merz ID"
+        }
+      ]
+    }
+  }
+]

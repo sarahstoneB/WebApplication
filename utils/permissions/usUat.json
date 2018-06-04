@@ -1,0 +1,54 @@
+{
+  "defaultView": "DASHBOARD",
+  "DATA_VIEW": {
+    "defRepoId": 1522579,
+    "enabled": true,
+    "actions": {
+      "card": {
+        "edit": true,
+        "delete": true
+      },
+      "save": true
+    }
+  },
+  "REFERENCE_VIEW": {
+    "enabled": true,
+    "actions": {
+      "delete": false,
+      "edit": false,
+      "save": false,
+      "create": false
+    }
+  },
+  "MATCH_AND_MERGE": {
+    "defRepoId": 1522832,
+    "enabled": true,
+    "actions": {
+      "create": true,
+      "reject": true,
+      "merge": true,
+      "link": false
+    }
+  },
+  "ERROR_REMEDIATION": {
+    "defRepoId": 1521826,
+    "enabled": true,
+    "actions": {
+      "save": true,
+      "reject": true,
+      "card": {
+        "edit": false,
+        "delete": false
+      }
+    }
+  },
+  "MY_ACCOUNT": {
+    "enabled": true
+  },
+  "DASHBOARD": {
+    "enabled": true
+  },
+  "DATA_PROFILER": {
+    "enabled": false
+  }
+}

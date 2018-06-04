@@ -1,0 +1,118 @@
+{
+  "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+  "name": "eu_1522772",
+  "comment": "grid layout for Merz - Master - Alternate Identifier",
+  "isEditor": false,
+  "ontologyName": "Merz - Master - Alternate Identifier",
+  "ontologyCategory": "AlternateIdentifier",
+  "container": {
+    "class": "com.liaison.mdm.dto.layout.GridContainer",
+    "name": "__grid",
+    "orientation": "vertical",
+    "showTitle": true,
+    "showBorder": true,
+    "contents": [{
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "MDMPARTYID",
+        "title": "MDM Party Identifier",
+        "toolTip": "Identifier of the Party record",
+        "comment": "Identifier of the Party record",
+        "editable": false,
+        "attributeFullPath": "::AlternateIdentifier::MdmPartyId",
+        "readOnly": true,
+        "required": true,
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "TYPE",
+        "title": "Type",
+        "toolTip": "the cache key for the request data",
+        "comment": "the cache key for the request data",
+        "editable": false,
+        "attributeFullPath": "::AlternateIdentifier::Type",
+        "readOnly": true,
+        "required": true,
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ALTERNATEID",
+        "title": "Alternate Identifier",
+        "toolTip": "Alternate Identifier of the Party record",
+        "comment": "Alternate Identifier of the Party record",
+        "editable": false,
+        "attributeFullPath": "::AlternateIdentifier::AlternateId",
+        "readOnly": true,
+        "required": true,
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ISSUER",
+        "title": "Issuer",
+        "toolTip": "Government entity or Originaization that Issued the identifier",
+        "comment": "Government entity or Originaization that Issued the identifier",
+        "editable": true,
+        "attributeFullPath": "::AlternateIdentifier::Issuer",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "SOURCESYSTEM",
+        "title": "sourceSystem",
+        "toolTip": "Source from which the alternate identifier is received",
+        "comment": "Source from which the alternate identifier is received",
+        "editable": true,
+        "attributeFullPath": "::AlternateIdentifier::sourceSystem",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STATUS",
+        "title": "Status",
+        "toolTip": "Status of the alternate Identifier (Active | Inactive)",
+        "comment": "Status of the alternate Identifier (Active | Inactive)",
+        "editable": false,
+        "attributeFullPath": "::AlternateIdentifier::Status",
+        "readOnly": true,
+        "required": true,
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      }
+    ],
+    "count": 6,
+    "columnCount": 4,
+    "type": "grid"
+  },
+  "layoutType": "grid"
+}

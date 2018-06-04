@@ -1,0 +1,610 @@
+{
+  "class": "com.liaison.mdm.dto.layout.MdmDocumentGridLayout",
+  "name": "eu_1522579",
+  "comment": "default grid layout for EU Merz - Master - Party",
+  "isEditor": false,
+  "ontologyName": "Merz - Master - Party",
+  "ontologyCategory": "Party",
+  "container": {
+    "class": "com.liaison.mdm.dto.layout.GridContainer",
+    "name": "__grid",
+    "orientation": "vertical",
+    "showTitle": true,
+    "showBorder": true,
+    "contents": [
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "MERZID",
+        "title": "MerzId",
+        "toolTip": "The unique customer-friendly master record identifier",
+        "comment": "The unique customer-friendly master record identifier",
+        "editable": true,
+        "attributeFullPath": "::Party::MerzId",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "PARTYTYPE",
+        "title": "Party Type",
+        "toolTip": "The type of the party in the source record (Individual | Organization).",
+        "comment": "The type of the party in the source record (Individual | Organization).",
+        "editable": true,
+        "attributeFullPath": "::Party::PartyType",
+        "readOnly": false,
+        "required": true,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "NAME",
+        "title": "Party Name",
+        "toolTip": "The name of the business or individual.",
+        "comment": "The name of the business or individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::Name",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ACCOUNTNAME2",
+        "title": "Account Name2",
+        "toolTip": "The Account name of the business or person",
+        "comment": "The Account name of the business or person",
+        "editable": true,
+        "attributeFullPath": "::Party::AccountName2",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "FAMILYNAME",
+        "title": "Family Name",
+        "toolTip": "The family, or last, name of the individual.",
+        "comment": "The family, or last, name of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::FamilyName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "GIVENNAME",
+        "title": "Given Name",
+        "toolTip": "The given, or first, name of the individual.",
+        "comment": "The given, or first, name of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::GivenName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ACCOUNTTYPE",
+        "title": "Account Type",
+        "toolTip": "The Account type of the party record",
+        "comment": "The Account type of the party record",
+        "editable": true,
+        "attributeFullPath": "::Party::AccountType",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ACCOUNTPHASESTATUS",
+        "title": "Account Phase Status",
+        "toolTip": "The Account Phase Status of the party record",
+        "comment": "The Account Phase Status of the party record",
+        "editable": true,
+        "attributeFullPath": "::Party::AccountPhaseStatus",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STATUS",
+        "title": "Status",
+        "toolTip": "The status of the party record",
+        "comment": "The status of the party record",
+        "editable": true,
+        "attributeFullPath": "::Party::Status",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "PARTYSUBTYPE",
+        "title": "Party Source Subtype",
+        "toolTip": "The type of the party in the source record (Person | Business).",
+        "comment": "The type of the party in the source record (Person | Business).",
+        "editable": true,
+        "attributeFullPath": "::Party::PartySubtype",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ACCOUNTSUBTYPE",
+        "title": "Account Subtype",
+        "toolTip": "The Account subtype of the party record",
+        "comment": "The Account subtype of the party record",
+        "editable": true,
+        "attributeFullPath": "::Party::AccountSubtype",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "ALLROLES",
+        "title": "Additional Roles",
+        "toolTip": "The secondary role(s) of the individual.",
+        "comment": "The secondary role(s) of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::AllRoles",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "GENDER",
+        "title": "Gender",
+        "toolTip": "The gender of the individual.",
+        "comment": "The gender of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::Gender",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "PREFERREDLANGUAGECODE",
+        "title": "Preferred Language Code",
+        "toolTip": "The code for the preferred language of the individual.",
+        "comment": "The code for the preferred language of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::PreferredLanguageCode",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "BIRTHDATE",
+        "title": "Birth Date",
+        "toolTip": "The data of birth of the individual.",
+        "comment": "The data of birth of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::BirthDate",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "NAMEATBIRTH",
+        "title": "Name at Birth",
+        "toolTip": "The name of the individual at birth.",
+        "comment": "The name of the individual at birth.",
+        "editable": true,
+        "attributeFullPath": "::Party::NameAtBirth",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "NAMEPREFIX",
+        "title": "Name Prefix",
+        "toolTip": "The name prefix of the individual.",
+        "comment": "The name prefix of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::NamePrefix",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "NAMESUFFIXPROFESSIONAL",
+        "title": "Professional Name Suffix",
+        "toolTip": "The name professional suffix of the individual.",
+        "comment": "The name professional suffix of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::NameSuffixProfessional",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "MIDDLENAME",
+        "title": "Middle Name",
+        "toolTip": "The middle name of the individual.",
+        "comment": "The middle name of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::MiddleName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "NAMESUFFIXGENERATIONAL",
+        "title": "Generational Name Suffix",
+        "toolTip": "The name generational suffix of the individual.",
+        "comment": "The name generational suffix of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::NameSuffixGenerational",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "FULLNAME",
+        "title": "Full Name",
+        "toolTip": "The full name of the individual.",
+        "comment": "The full name of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::FullName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "NAMEINITIALS",
+        "title": "Party Initials",
+        "toolTip": "The name initials of the business or individual.",
+        "comment": "The name initials of the business or individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::NameInitials",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "PREFERREDNAME",
+        "title": "Preferred Name",
+        "toolTip": "The preferred name of the individual.",
+        "comment": "The preferred name of the individual.",
+        "editable": true,
+        "attributeFullPath": "::Party::PreferredName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STATUSREASON",
+        "title": "Status Reason",
+        "toolTip": "The reason for the party record status",
+        "comment": "The reason for the party record status",
+        "editable": true,
+        "attributeFullPath": "::Party::StatusReason",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STATUSREASONDATE",
+        "title": "Status Reason Date",
+        "toolTip": "The date of the status reason for the party",
+        "comment": "The date of the status reason for the party",
+        "editable": true,
+        "attributeFullPath": "::Party::StatusReasonDate",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STREETNUMBER",
+        "title": "Street Number",
+        "editable": true,
+        "attributeFullPath": "::Party::StreetNumber",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STREETNAME",
+        "title": "Street Name",
+        "editable": true,
+        "attributeFullPath": "::Party::StreetName",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "CITY",
+        "title": "City",
+        "editable": true,
+        "attributeFullPath": "::Party::City",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "STATE",
+        "title": "State/Province",
+        "editable": true,
+        "attributeFullPath": "::Party::State",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "COUNTRY",
+        "title": "Country",
+        "editable": true,
+        "attributeFullPath": "::Party::Country",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayAttribute",
+        "name": "POSTALCODE",
+        "title": "Postal Code",
+        "editable": true,
+        "attributeFullPath": "::Party::PostalCode",
+        "readOnly": false,
+        "required": false,
+        "editorType": "textbox",
+        "editorConfiguration": {
+          "class": "com.liaison.mdm.dto.layout.editor.TextBoxConfiguration",
+          "editorType": "textbox"
+        },
+        "componentType": "attribute"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "dateModified",
+        "title": "Modified",
+        "toolTip": "the date when the document was last modified",
+        "comment": "the date when the document was last modified",
+        "doNotPrune": true,
+        "attributeFullPath": "::dateModified",
+        "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "dateTime",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "dateCreated",
+        "title": "Created",
+        "toolTip": "the date when the document was created",
+        "comment": "the date when the document was created",
+        "doNotPrune": true,
+        "attributeFullPath": "::dateCreated",
+        "valueFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "displayFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "dateTime",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "userModified",
+        "title": "Modified By",
+        "toolTip": "the name of the user who last modified the document",
+        "comment": "the name of the user who last modified the document",
+        "doNotPrune": true,
+        "attributeFullPath": "::userModified",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "userCreated",
+        "title": "Created By",
+        "toolTip": "the name of the user who created the document",
+        "comment": "the name of the user who created the document",
+        "doNotPrune": true,
+        "attributeFullPath": "::userCreated",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      },
+      {
+        "class": "com.liaison.mdm.dto.layout.DisplayMetadataAttribute",
+        "name": "documentKey",
+        "title": "Identifier",
+        "toolTip": "the unique repository document key",
+        "comment": "the unique repository document key",
+        "doNotPrune": true,
+        "attributeFullPath": "::documentKey",
+        "readOnly": true,
+        "required": false,
+        "clearOnClone": true,
+        "valueType": "text",
+        "componentType": "metadata"
+      }
+    ],
+    "count": 36,
+    "columnCount": 4,
+    "type": "grid"
+  },
+  "layoutType": "grid"
+}

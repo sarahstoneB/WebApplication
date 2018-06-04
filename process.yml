@@ -1,0 +1,5 @@
+apps:
+  - script: ./server.js
+    name: 'web-mdm-datasteward'
+    env:
+      NODE_ENV: production
